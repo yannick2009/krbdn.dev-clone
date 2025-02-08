@@ -1,0 +1,54 @@
+:root {
+    --color-green: #00E72A
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', Courier, monospace;
+    background-color: black;
+    color: var(--color-green);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section {
+    width: 600px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+#container {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px solid var(--color-green);
+}
+
+.container-head {
+    margin-bottom: 1rem;
+}
+
+.container-input {
+    display: flex;
+}
+
+.container-input input {
+    width: 100%;
+    margin-left: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--color-green);
+    font: inherit;
+}
+
+footer {
+    width: fit-content;
+    margin: 1rem auto;
+}
