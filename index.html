@@ -9,6 +9,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
       rel="stylesheet" />
+    <script defer src="./js/main.js"></script>
     <title>es-blog</title>
   </head>
   <body>
@@ -28,9 +29,12 @@
           <p>Welcome to the Terminal!</p>
           <p>Type 'help' to see available commands.</p>
         </div>
+        <div class="container-output"></div>
         <div class="container-input">
-          <p>esblog@livecoding:~$</p>
-          <input maxlength="20" type="text" />
+          <p>esblog@livecoding:<span>~</span>$</p>
+          <form>
+            <input maxlength="20" type="text" />
+          </form>
         </div>
       </div>
     </section>

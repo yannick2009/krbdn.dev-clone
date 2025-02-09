@@ -34,6 +34,10 @@ section {
     margin-bottom: 1rem;
 }
 
+.container-output p {
+    white-space: pre-wrap;
+}
+
 .container-input {
     display: flex;
 }
